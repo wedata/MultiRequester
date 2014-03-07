@@ -48,6 +48,17 @@
   }
 },
 {
+  "name" : "価格.com 検索",
+  "data" : {
+    "name"        : "kakaku-search",
+    "description" : "kakaku.com検索",
+    "url"         : "http://kakaku.com/search_results/%s/",
+    "xpath"       : "id('main')/div[contains(concat(' ',@class,' '),' itemtblList ')]/div[contains(concat(' ',@class,' '),' item ')]",
+    "srcEncode"   : "Shift_JIS",
+    "urlEncode"   : "Shift_JIS"
+  }
+},
+{
   "name" : "2ちゃんねる検索",
   "data" : {
     "name"        : "2ch-search",
