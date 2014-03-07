@@ -1,10 +1,12 @@
-# template
+# Multi Requester
 
-[![Build Status](https://travis-ci.org/wedata/template.png?branch=master)](https://travis-ci.org/wedata/template)
+[![Build Status](https://travis-ci.org/wedata/MultiRequester.png?branch=master)](https://travis-ci.org/wedata/MultiRequester)
 
-Description
+Site information to extract results from the site
 
 ## Data Scheme
+
+- [multi_requester plugin for vimperator](http://d.zeromemory.info/2008/11/20/vimperator-multi_requester.html)
 
 ## Contributing
 
