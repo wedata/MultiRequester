@@ -5,7 +5,7 @@
     "name"        : "weblio-ejje",
     "description" : "英和辞典・和英辞典 - Weblio辞書",
     "url"         : "http://ejje.weblio.jp/content/%s",
-    "xpath"       : "id(\"main\")//div[@class=\"kiji\"]"
+    "xpath"       : "id('main')//div[@class='kiji']"
   }
 },
 {
@@ -14,7 +14,7 @@
     "name"        : "wiktionary-ja",
     "description" : "Wiktionary(ja)",
     "url"         : "http://ja.wiktionary.org/wiki/%s",
-    "xpath"       : "id(\"bodyContent\")/div[@class=\"mw-content-ltr\"]",
+    "xpath"       : "id('bodyContent')/div[@class='mw-content-ltr']",
     "ignoreTags"  : "table"
   }
 },
@@ -24,7 +24,7 @@
     "name"        : "wiktionary-en",
     "description" : "Wiktionary(en)",
     "url"         : "http://en.wiktionary.org/wiki/%s",
-    "xpath"       : "id(\"bodyContent\")/div[@class=\"mw-content-ltr\"]",
+    "xpath"       : "id('bodyContent')/div[@class='mw-content-ltr']",
     "ignoreTags"  : "table"
   }
 },
@@ -43,7 +43,7 @@
     "name"        : "hatena-keyword",
     "description" : "はてなキーワード",
     "url"         : "http://d.hatena.ne.jp/keyword/%s",
-    "xpath"       : "//div[contains(concat(\" \", @class, \" \"), \" keyword-body \")]",
+    "xpath"       : "//div[contains(concat(' ',@class,' '),' keyword-body ')]",
     "srcEncode"   : "EUC-JP"
   }
 },
