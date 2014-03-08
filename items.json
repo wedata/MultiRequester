@@ -77,5 +77,14 @@
     "srcEncode"   : "EUC-JP",
     "urlEncode"   : "EUC-JP"
   }
+},
+{
+  "name" : "Twitter Search",
+  "data" : {
+    "name"        : "search-twitter",
+    "description" : "Twitter Search",
+    "url"         : "https://twitter.com/search?q=%s",
+    "xpath"       : "id('stream-items-id')"
+  }
 }
 ]
