@@ -86,5 +86,25 @@
     "url"         : "https://twitter.com/search?q=%s",
     "xpath"       : "id('stream-items-id')"
   }
+},
+{
+  "name": "ウィキペディア",
+  "data": {
+    "name"        : "wikipedia-ja",
+    "description" : "Wikipedia(ja)",
+    "url"         : "http://ja.wikipedia.org/wiki/%s",
+    "xpath"       : "id('bodyContent')/div[@class='mw-content-ltr']",
+    "ignoreTags"  : "table"
+ }
+},
+{
+  "name" : "Wikipedia(en)",
+  "data" : {
+    "name"        : "wikipedia-en",
+    "description" : "Wikipedia(en)",
+    "url"         : "http://en.wikipedia.org/wiki/%s",
+    "xpath"       : "id('bodyContent')/div[@class='mw-content-ltr']",
+    "ignoreTags"  : "table"
+  }
 }
 ]
