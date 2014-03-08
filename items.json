@@ -38,6 +38,15 @@
   }
 },
 {
+  "name" : "QRコード",
+  "data" : {
+    "name"        : "qrcode",
+    "description" : "テキストをQRコードに変換",
+    "url"         : "http://chart.apis.google.com/chart?cht=qr&chs=400x400&choe=UTF-8&chl=%s",
+    "xpath"       : "//img"
+  }
+},
+{
   "name" : "はてなキーワード",
   "data" : {
     "name"        : "hatena-keyword",
