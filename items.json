@@ -68,14 +68,12 @@
   }
 },
 {
-  "name" : "2ちゃんねる検索",
+  "name" : "２ちゃんねる検索",
   "data" : {
     "name"        : "2ch-search",
-    "description" : "2ちゃんねる検索",
-    "url"         : "http://www.find.2ch.net/?STR=%s",
-    "xpath"       : "//div[@class='content_pane']//dl/dt",
-    "srcEncode"   : "EUC-JP",
-    "urlEncode"   : "EUC-JP"
+    "description" : "２ちゃんねる検索",
+    "url"         : "http://search.2ch.net/search.php?q=%s",
+    "xpath"       : "//div[@class='container']//blockquote"
   }
 },
 {
